@@ -21,10 +21,10 @@ $(document).ready(function() {
     var result = triangleMaker(side1, side2, side3);
 
     if (result === false) {
-      result = 'not at all a'
+      result = 'This is not at all a triangle'
       $(".triangle").text(result);
     } else {
-      $(".triangle").text('a(n)' + result);
+      $(".triangle").text(result);
     }
   });
 });
