@@ -14,4 +14,8 @@ describe('triangleMaker', function() {
   it("will return isoceles if two sides are equal to one another", function() {
     expect(triangleMaker(9, 9, 5)).to.equal("isoceles");
   });
+
+  it("will return scalene if none of the sides are equal to one another", function() {
+    expect(triangleMaker(5, 7, 9)).to.equal("scalene");
+  });
 });
