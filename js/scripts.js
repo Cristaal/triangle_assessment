@@ -17,12 +17,14 @@ $(document).ready(function() {
     event.preventDefault();
     var side1 = parseInt($('input#side1').val());
     var side2 = parseInt($('input#side2').val());
-    var side3 = parseInt($('input#side3').val()):
-    var result = triangleCalculator(side1, side2, side3);
+    var side3 = parseInt($('input#side3').val());
+    var result = triangleMaker(side1, side2, side3);
 
     if (result === false) {
       result = 'not at all a'
-      $('.triangle').text('a(n)' + result);
+      $(".triangle").text(result);
+    } else {
+      $(".triangle").text('a(n)' + result);
     }
   });
 });
