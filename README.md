@@ -22,7 +22,11 @@ Open your browser to localhost:8000.
 MIT License Copyright 2015 Crystal Contreras-Grossman
 
 <h2>Motivation</h2>
-This app was created as an assessment for testing my object-oriented JavaScript skills
+<ul>
+  <li>Writing JavaScript Functions</li>
+  <li>Using JQuery to retrieve input from html forms</li>
+  <li>User input validation</li>
+</ul>
 
 <h2>Bugs:</h2>
 No known bugs at this time
