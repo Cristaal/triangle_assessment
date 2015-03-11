@@ -10,11 +10,7 @@ Written using jquery-1.11.20
 
 Clone the repository in your terminal.
 <br>
-Open the file in your terminal and enter:
-```console
-"python -m SimpleHTTPServer".
-```
-Open your browser to localhost:8000.
+To run the app simply clone this repository and open up the index.html file in a web browser.
 
 
 
