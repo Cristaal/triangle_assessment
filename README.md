@@ -8,7 +8,10 @@ By Crystal Contreras-Grossman
 <h2>Installation</h2>
 
 Clone the repository in your terminal.
-Open the file in your terminal and enter "python -m SimpleHTTPServer".
+Open the file in your terminal and enter:
+```console
+"python -m SimpleHTTPServer".
+```
 Open your browser to localhost:8000.
 
 Written using jquery-1.11.20
