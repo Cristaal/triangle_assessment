@@ -1,3 +1,5 @@
+<h1>Triangle Maker Assessment</h1>
+
 Written using jquery-1.11.2
 
 Triangle Maker is an app that allows the user to input three numbers to see what kind of triangle those numbers could make (if any at all)
