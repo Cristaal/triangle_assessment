@@ -1,3 +1,12 @@
-body {
-  font-family: 'Goudy Old Style';
+title {
+  font-family: 'Bowlby One';
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.box1 {
+  display: inline-block;
 }
