@@ -1,12 +1,13 @@
 title {
   font-family: 'Trebuchet MS';
+  font-size: xx-large;
 }
 h1 {
   text-align: center;
 }
 .instructions {
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
   font-style: italic;
 }
 form {
