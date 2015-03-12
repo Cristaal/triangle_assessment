@@ -10,22 +10,26 @@
   <body>
     <div class="container">
       <h1>Triangle Maker</h1>
+        <p class="instructions" for="triangle">Enter three numbers to see what kind of triangle it can make:</p>
         <form id="triangle-maker">
           <div class="form-group">
-            <h3><label for="triangle">Enter three numbers to see what kind of triangle it can make:</label></h3>
-            <div class="box1"><input id="side1" type="text" placeholder="Side 1"></div>
-          <br>
           </br>
-            <div class="box2"><input id="side2" type="text" placeholder="Side 2"></div>
+            <input id="side1" type="text" placeholder="Side 1">
           </br>
-            <div class="box3"><input id="side3" type="text" placeholder="Side 3"></div>
+          </br>
+            <input id="side2" type="text" placeholder="Side 2">
+          </br>
+          </br>
+            <input id="side3" type="text" placeholder="Side 3">
+          </br>
+          </br>
           </div>
 
           <button type="submit" class="btn btn-large btn-primary">Click here to see</button>
         </form>
 
         <div id="result">
-          <p><span class="triangle"> </span></p>
+          <p class="answer"><span class="triangle"> </span></p>
         </div>
         <form id="reset">
           <a href="javascript:location.reload(true)"><button id="reset-btn" class="btn btn-large btn-warning">Refresh</button></a>

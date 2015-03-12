@@ -1,12 +1,17 @@
 title {
-  font-family: 'Bowlby One';
+  font-family: 'Trebuchet MS';
 }
 h1 {
   text-align: center;
 }
-h3 {
+.instructions {
+  text-align: center;
+  font-size: 100%;
+  font-style: italic;
+}
+form {
   text-align: center;
 }
-.box1 {
-  display: inline-block;
+.answer {
+  text-align: center
 }
