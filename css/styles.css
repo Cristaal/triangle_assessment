@@ -16,3 +16,9 @@ form {
 .answer {
   text-align: center
 }
+input[type=text]{
+  border-radius:10px;
+}
+.form-group {
+  margin-left: 23px;
+}
