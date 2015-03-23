@@ -8,7 +8,6 @@ Written using jquery-1.11.20
 
 <h2>Installation</h2>
 
-Clone the repository in your terminal.
 <br>
 To run the app simply clone this repository and open up the index.html file in a web browser.
 
